@@ -9,9 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var drawView: DrawableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        drawView.lineWidth = 12.0
         // Do any additional setup after loading the view, typically from a nib.
     }
 
